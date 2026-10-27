@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#222220"/>
+      <stop offset="100%" stop-color="#141412"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="192" height="192" rx="40" fill="url(#bgGrad)"/>
+  
+  <!-- Outer subtle gold ring -->
+  <circle cx="96" cy="96" r="74" fill="none" stroke="#D97706" stroke-width="2.5" opacity="0.3"/>
+  
+  <!-- Bread Loaf Silhouette -->
+  <path d="M52 110 C52 74, 140 74, 140 110 C140 126, 52 126, 52 110 Z" fill="url(#goldGrad)" opacity="0.95"/>
+  
+  <!-- Cuts / Pestana -->
+  <path d="M72 88 Q82 98 76 108" stroke="#78350F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M92 85 Q102 97 96 110" stroke="#78350F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M112 88 Q122 98 116 108" stroke="#78350F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Scan / Raio-X Laser line -->
+  <line x1="36" y1="96" x2="156" y2="96" stroke="#FDE68A" stroke-width="2" stroke-dasharray="4 2" opacity="0.8"/>
+  <circle cx="96" cy="96" r="4" fill="#FBBF24"/>
+</svg>
